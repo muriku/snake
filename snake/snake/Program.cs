@@ -13,20 +13,21 @@ namespace snake
     {
         static void Main(string[] args )
         {
-            Point p1 = new Point(1, 3, '*'); //инкапсуляция (это свойство системы, позволяющее обьединить данные и методы работающие с ними в классе, и скрыть все детали от пользователя)
-           
-            p1.Draw();
-        
-            Point p2 = new Point(4, 5, '#');
-         
-            p2.Draw();
+            //Console.SetBufferSize(80, 25);
+            //отрисовка рамки
+            HorizontalLine Upline = new HorizontalLine(0,118,0, '+'); //создание линии
+            HorizontalLine Downline = new HorizontalLine(0, 118, 28, '+'); //создание линии
+            Upline.Drow(); //вывожу линию
+            Downline.Drow(); //вывожу линию
 
-            HorizontalLine LineHorisont = new HorizontalLine(5,40,8, '+'); //создание линии
-            LineHorisont.Drow(); //вывожу линию
+            VerticalLine LeftLine = new VerticalLine(0, 28, 0, '+'); //создание линии
+            VerticalLine RightLine = new VerticalLine(0, 28, 118, '+'); //создание линии
+            LeftLine.Drow(); //вывожу линию
+            RightLine.Drow(); //вывожу линию
 
-            VerticalLine LineVertical = new VerticalLine(41, 0, 8, '+'); //создание линии
-            LineVertical.Drow(); //вывожу линию
-
+            //отрисовка точек
+            Point p = new Point(4,5,'*');
+            p.Draw();
 
 
 

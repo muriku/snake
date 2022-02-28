@@ -10,7 +10,7 @@ namespace snake
     {
         List<Point> pList;
 
-        public VerticalLine(int x, int yUpper, int yBottom, char sym)
+        public VerticalLine(int yUpper, int yBottom, int x, char sym)
         {
             pList = new List<Point>();
             for (int y = yUpper; y <= yBottom; y++)
