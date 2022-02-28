@@ -21,62 +21,12 @@ namespace snake
          
             p2.Draw();
 
-            Point p3 = new Point(10, 10, ':');
+            HorizontalLine LineHorisont = new HorizontalLine(5,40,8, '+'); //создание линии
+            LineHorisont.Drow(); //вывожу линию
 
-            p3.Draw();
+            VerticalLine LineVertical = new VerticalLine(41, 0, 8, '+'); //создание линии
+            LineVertical.Drow(); //вывожу линию
 
-            Point p4 = new Point(11, 11, ':');
-
-            p4.Draw();
-
-            Point p5 = new Point(12, 12, ':');
-
-            p5.Draw();
-
-            Point p6 = new Point(13, 13, ':');
-
-            p6.Draw();
-
-            List<int> numList = new List<int>();
-            numList.Add(0);
-            numList.Add(1); 
-            numList.Add(2);
-
-            int x = numList[0];
-            int y = numList[1];
-            int z = numList[2];
-
-            foreach(int i in numList)
-            {
-                Console.WriteLine(i);
-            }
-            numList.RemoveAt(0);
-
-            List<Point> pList = new List<Point>();
-            pList.Add(p1);
-            pList.Add(p2);
-            pList.Add(p3);
-            pList.Add(p4);
-            pList.Add(p5);
-            pList.Add(p6);
-
-
-            char sharp = '#';
-            char star = '*';
-
-            List<char> simbols = new List<char>();
-            simbols.Add(star);
-            simbols.Add(sharp);
-
-            char _char = simbols[0];
-            char _star = simbols[1];
-
-            foreach(int j in simbols)
-            {
-                Console.WriteLine(j);
-                Console.WriteLine(sharp);
-                Console.WriteLine(star);
-            }
 
 
 
