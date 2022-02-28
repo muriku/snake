@@ -13,3 +13,11 @@ D:\OneDrive\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\sn
 D:\OneDrive\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\snake\obj\Debug\net6.0\snake.pdb
 D:\OneDrive\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\snake\obj\Debug\net6.0\snake.genruntimeconfig.cache
 D:\OneDrive\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\snake\obj\Debug\net6.0\ref\snake.dll
+E:\OneDrive\Administrator\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\snake\obj\Debug\net6.0\snake.csproj.AssemblyReference.cache
+E:\OneDrive\Administrator\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\snake\obj\Debug\net6.0\snake.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\Administrator\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\snake\obj\Debug\net6.0\snake.AssemblyInfoInputs.cache
+E:\OneDrive\Administrator\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\snake\obj\Debug\net6.0\snake.AssemblyInfo.cs
+E:\OneDrive\Administrator\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\snake\obj\Debug\net6.0\snake.csproj.CoreCompileInputs.cache
+E:\OneDrive\Administrator\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\snake\obj\Debug\net6.0\snake.dll
+E:\OneDrive\Administrator\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\snake\obj\Debug\net6.0\refint\snake.dll
+E:\OneDrive\Administrator\OneDrive - GBOU Gymnasium N49 St. Petersburg\Projects\snake\snake\snake\obj\Debug\net6.0\snake.pdb
