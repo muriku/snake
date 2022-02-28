@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace snake
 {
-    internal class HorizontalLine
+    internal class HorizontalLine : Figure //специальный синтаксис говорящий о том что горизонтальная линия наследуюется от фигуры
     {
-        List<Point> pList;
-
         public HorizontalLine(int xLeft, int xRight,int y, char sym)
         {
             pList = new List<Point>();
@@ -23,12 +21,5 @@ namespace snake
 
         }
 
-        public void Drow()
-        {
-            foreach(Point p in pList)
-            {
-                p.Draw();
-            }
-        }
     }
 }
