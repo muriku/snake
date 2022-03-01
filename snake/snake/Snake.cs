@@ -33,12 +33,26 @@ namespace snake
             tail.Clear();
             head.Draw();
         }
+
         public Point GetNextPoint()
         {
             Point head = pList.Last();
             Point nextPoint = new Point(head);
             nextPoint.Move(1, direction);
             return nextPoint; 
+        }
+
+        public void HandleKey(ConsoleKey Key)
+        {
+            if (Key == ConsoleKey.LeftArrow)
+                direction = Direction.LEFT;
+            else if (Key == ConsoleKey.RightArrow)
+                direction = Direction.RIGHT;
+            else if (Key == ConsoleKey.UpArrow)
+                direction = Direction.UP;
+            else if (Key == ConsoleKey.DownArrow)
+                direction = Direction.DOWN;
+
         }
     }
 }

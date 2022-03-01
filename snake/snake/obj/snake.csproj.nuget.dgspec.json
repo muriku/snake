@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\OneDrive - GBOU Gymnasium N49 St. Petersburg\\Projects\\с#\\snake\\snake\\snake\\snake.csproj": {}
+    "E:\\OneDrive\\Administrator\\OneDrive - GBOU Gymnasium N49 St. Petersburg\\Projects\\с#\\snake\\snake\\snake\\snake.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\OneDrive - GBOU Gymnasium N49 St. Petersburg\\Projects\\с#\\snake\\snake\\snake\\snake.csproj": {
+    "E:\\OneDrive\\Administrator\\OneDrive - GBOU Gymnasium N49 St. Petersburg\\Projects\\с#\\snake\\snake\\snake\\snake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\OneDrive - GBOU Gymnasium N49 St. Petersburg\\Projects\\с#\\snake\\snake\\snake\\snake.csproj",
+        "projectUniqueName": "E:\\OneDrive\\Administrator\\OneDrive - GBOU Gymnasium N49 St. Petersburg\\Projects\\с#\\snake\\snake\\snake\\snake.csproj",
         "projectName": "snake",
-        "projectPath": "D:\\OneDrive\\OneDrive - GBOU Gymnasium N49 St. Petersburg\\Projects\\с#\\snake\\snake\\snake\\snake.csproj",
+        "projectPath": "E:\\OneDrive\\Administrator\\OneDrive - GBOU Gymnasium N49 St. Petersburg\\Projects\\с#\\snake\\snake\\snake\\snake.csproj",
         "packagesPath": "C:\\Users\\murik\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\OneDrive - GBOU Gymnasium N49 St. Petersburg\\Projects\\с#\\snake\\snake\\snake\\obj\\",
+        "outputPath": "E:\\OneDrive\\Administrator\\OneDrive - GBOU Gymnasium N49 St. Petersburg\\Projects\\с#\\snake\\snake\\snake\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\murik\\AppData\\Roaming\\NuGet\\NuGet.Config",
