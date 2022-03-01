@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace snake
 {
-    internal class Snake: Figure
-       
+    internal class Snake : Figure
+
     {
         Direction direction;
         public Snake(Point tail, int lenght, Direction _direction)
         {
             direction = _direction;
             pList = new List<Point>();
-            for(int i = 0; i < lenght; i++)
+            for (int i = 0; i < lenght; i++)
             {
-                Point p = new Point(tail); 
+                Point p = new Point(tail);
                 p.Move(i, direction);
                 pList.Add(p);
             }
@@ -39,7 +39,7 @@ namespace snake
             Point head = pList.Last();
             Point nextPoint = new Point(head);
             nextPoint.Move(1, direction);
-            return nextPoint; 
+            return nextPoint;
         }
 
         public void HandleKey(ConsoleKey Key)
@@ -53,6 +53,19 @@ namespace snake
             else if (Key == ConsoleKey.DownArrow)
                 direction = Direction.DOWN;
 
+        }
+
+        internal bool Eat(Point food)
+        {
+            Point head = GetNextPoint();
+            if (head.IsHit(food))
+            {
+                food.sym = head.sym;
+                pList.Add(food);
+                return true;
+            }
+            else
+                return false;
         }
     }
 }
